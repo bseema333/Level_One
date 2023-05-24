@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/weather_update"
+
+        android:title="Weather"
+        android:icon="@drawable/baseline_wb_sunny_24"
+        />
+
+    <item
+        android:id="@+id/sports_update"
+        android:icon="@drawable/baseline_sports_handball_24"
+        android:title="Sport" />
+
+    <item
+        android:id="@+id/travel_update"
+        android:icon="@drawable/baseline_travel_explore_24"
+        android:title="Travel" />
+</menu>

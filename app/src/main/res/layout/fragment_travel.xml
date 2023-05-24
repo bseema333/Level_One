@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/travell"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="#088E24AA"
+        android:backgroundTint="#D517130E"
+        android:backgroundTintMode="src_atop"
+        android:ellipsize="middle"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="text"
+        android:paddingTop="15dp"
+        android:text="travel_information"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#090909"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:drawableStartCompat="@color/material_dynamic_neutral_variant60"
+        app:drawableRightCompat="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#088E24AA">
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#19D500F9"
+            android:text="explore"
+            android:textColor="#090909"
+            android:textStyle="bold"
+            tools:ignore="Deprecated,NestedWeights" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#19D500F9"
+            android:text="Flight"
+            android:textColor="#090909"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#19D500F9"
+            android:text="Stay"
+            android:textColor="#090909"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
